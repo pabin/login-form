@@ -1,0 +1,26 @@
+.container {
+  background-color: #3364FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile and tablets: */
+  .container {
+    padding: 15px;
+  }
+}
+
+.title {
+  text-align: center;
+  color: #FFF;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.description {
+  color: #FFF;
+  font-size: larger;
+}

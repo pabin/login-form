@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.formContainer {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+  .formContainer {
+    width: 85%;
+  }
+}
+
+.form {
+  margin: 20px 0px;
+}
+
+.footerText {
+  font-size: 13px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3364FF;
+}
+
+.stepCount {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 500;
+  top: 30px;
+  right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .stepCount {
+    top: 12px;
+    right: 15px;
+  }
+}
